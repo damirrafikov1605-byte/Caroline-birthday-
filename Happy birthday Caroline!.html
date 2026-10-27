@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просто картинки</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Белый фон, чтобы если экран шире картинки, не было черной хуйни */
+            background-color: #ffffff; 
+        }
+
+        img {
+            /* Картинка на всю ширину, высота подстраивается сама */
+            width: 100%;
+            height: auto;
+            /* Убирает мелкие отступы между картинками */
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+
+    <img src="1.jpg" alt="Кэровский">
+    <img src="2.jpg" alt="Зеркала">
+    <img src="3.jpg" alt="Кофе">
+
+</body>
+</html>
